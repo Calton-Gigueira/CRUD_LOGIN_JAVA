@@ -109,7 +109,7 @@ public class UserDAO implements UserDAOInterface {
 
       this.preparedStatement.executeUpdate();
 
-      JOptionPane.showMessageDialog(null, "Usuario atualizado co sucesso!");
+      JOptionPane.showMessageDialog(null, "Usuario atualizado com sucesso!");
     } catch (SQLException e) {
       System.err.println(e.getMessage());
       e.printStackTrace();
@@ -141,7 +141,7 @@ public class UserDAO implements UserDAOInterface {
 
         this.preparedStatement.executeUpdate();
 
-        JOptionPane.showMessageDialog(null, "Usuario deletado com sucesso!");
+        JOptionPane.showMessageDialog(null, "Usuario exluido com sucesso!");
       } catch (SQLException e) {
         System.err.println(e.getMessage());
         e.printStackTrace();

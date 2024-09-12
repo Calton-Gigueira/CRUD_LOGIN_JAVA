@@ -7,8 +7,8 @@ public class User {
   private String password;
   private String email;
   private String genre;
-  private String function = "user";
-  private String status = "Inactivo";
+  private String function;
+  private String status;
   
   public User(String name, String password, String email, String genre, String function, String status) {
     this.name = name;

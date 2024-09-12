@@ -3,7 +3,6 @@ package gui;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 import dao.UserDAO;

@@ -16,4 +16,5 @@ public interface UserDAOInterface {
   public abstract void deleteUser(User user);
 
   public abstract ResultSet loginUser(User user);
+  
 }
