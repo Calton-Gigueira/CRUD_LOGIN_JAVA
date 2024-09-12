@@ -81,6 +81,7 @@ public class UserDAO implements UserDAOInterface {
       try {
         if (this.connection != null) this.connection.close();
         if (this.preparedStatement != null) this.preparedStatement.close();
+        if (this.resultSet != null) this.resultSet.close();
       } catch (SQLException e) {
         System.err.println(e.getMessage());
         e.printStackTrace();
